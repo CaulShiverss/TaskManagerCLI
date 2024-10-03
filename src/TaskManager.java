@@ -14,7 +14,7 @@ public class TaskManager {
 
     public void showTasks() {
         for (int i = 0; i < tasks.size(); i++) {
-            System.out.print("\n[+] --- Tareas --- [+]\n");
+            System.out.println("\n[+] --- Tareas --- [+]\n");
             System.out.println((i + 1) + ". " + (tasks.get(i)));
         }
     }
